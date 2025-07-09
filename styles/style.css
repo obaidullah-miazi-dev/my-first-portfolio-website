@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,16 +11,29 @@ body{
 
 
 
-.text-primary-color{
+.text-primary-color {
     color: #4CACFF;
 }
 
-.icon-gap{
+.icon-gap {
     margin-right: 10px;
 }
 
+.primary-bg {
+    background-color: #EEF7FF;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.light-dark {
+    color: #757575;
+}
+
 /* header style  */
-header{
+header {
     background-color: #EEF7FF;
     background-image: url(developer.png), url(header-bg2.png);
     background-repeat: no-repeat;
@@ -29,14 +42,14 @@ header{
 
 /* nav styles */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
 
-.nav-title{
+.nav-title {
     font-family: open sans;
     font-size: 45px;
     font-weight: 800;
@@ -48,13 +61,13 @@ ul li {
     margin-left: 45px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     font-size: 20px;
     color: #474747;
 }
 
-.btn{
+.btn {
     background-color: #4CACFF;
     font-size: 20px;
     font-weight: 600;
@@ -64,7 +77,7 @@ ul li a{
     border-radius: 5px;
 }
 
-.btn2{
+.btn2 {
     background: none;
     font-size: 20px;
     font-weight: 600;
@@ -79,36 +92,134 @@ ul li a{
 
 
 
-.banner-content{
+.banner-content {
     max-width: 585px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 500;
     color: #474747;
     margin: 0;
 }
 
-.banner-name{
+.banner-name {
     font-size: 85px;
     font-weight: bold;
     margin: 0;
 }
 
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 230px;
     align-items: center;
 }
 
-.banner-profile{
+.banner-profile {
     width: 585px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
+
+/* about section style  */
+
+.about-section {
+    margin: 130px auto;
+    padding: 95px 155px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-section-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+
+.item-heading,
+.item-details {
+    margin: 0;
+}
+
+/* card section  */
+
+
+.p-width{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.skill-card-section{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 130px;
+}
+
+.skill-card{
+    /* border: 1px solid black; */
+    padding: 30px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.137);
+    max-width: 265px;
+    border-radius: 5px;
+}
+
+.line-height{
+    line-height: 30px;
+    
+}
+
+.skill-card img{
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+/* Resume section  */
+
+.all-achivements{
+    display: flex;
+    gap: 75px;
+    margin-top: 120px;
+}
+
+.achivements-heading{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.achivements-since{
+    font-weight: 600;
+    margin: 0;
+}
+
+.achive{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.226);
+    margin-bottom: 45px;
+}
+
+.btn-sec{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+/* footer section style  */
 
